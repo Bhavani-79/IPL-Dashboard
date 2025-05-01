@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.list {
+  background-color: #1e293b;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  width: 95vw;
+  height: 50vh;
+  justify-content: space-around;
+  align-items: center;
+}
+.team-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Beer serif';
+  margin-top: 10px;
+}
+.date-para {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Beer serif';
+}
+.para {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Beer serif';
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.hide-match-details {
+  display: flex;
+  width: 45vw;
+  justify-content: space-between;
+  margin-left: 0px;
+}
+
+.match-details {
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 0px;
+}
+
+.latest-match-logo {
+  height: 200px;
+  width: 200px;
+}
+.inning-container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 0px;
+  margin: 0px;
+}
+.hr-line {
+  display: none;
+}
+
+@media screen and (max-width: 786px) {
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 80vw;
+    height: 80vh;
+  }
+  .para {
+    font-size: 15px;
+  }
+  .date-para {
+    font-size: 15px;
+  }
+  .team-heading {
+    font-size: 20px;
+  }
+  .match-details {
+    align-items: flex-start;
+  }
+  .latest-match-logo {
+    height: 100px;
+    width: 100px;
+    align-self: center;
+  }
+  .hide-match-details {
+    display: flex;
+    justify-content: space-between;
+    width: 70vw;
+  }
+  .hr-line {
+    border: 1px solid #475569;
+    width: 70vw;
+    display: block;
+  }
+  .inning-container {
+  }
+  .team-heading {
+    font-size: 15px;
+  }
+}

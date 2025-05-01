@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.teamMatches-container {
+  background-color: #a4261d;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  min-height: 100vh;
+  justify-content: center;
+  background-size: cover;
+}
+.banner {
+  height: 400px;
+  width: 95vw;
+}
+.recent-matches {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (max-width: 786px) {
+  .banner {
+    width: 90vw;
+    height: 200px;
+  }
+}

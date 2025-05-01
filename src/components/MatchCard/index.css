@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.match-list {
+  background-color: #1e293b;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 25vw;
+  height: 55vh;
+  list-style-type: none;
+  margin: 30px;
+}
+.match-logo {
+  height: 150px;
+  width: 100px;
+}
+
+.win {
+  color: #18ed66;
+  font-size: 20px;
+  font-family: 'beer serif';
+}
+.loss {
+  color: #e31a1a;
+  font-size: 20px;
+  font-family: 'beer serif';
+}
+.para1 {
+  font-size: 20px;
+  font-family: 'beer serif';
+  color: #ffffff;
+  width: 200px;
+  text-align: center;
+}
+
+.team1-heading {
+  color: #ffffff;
+  font-size: 25px;
+  font-family: 'Beer serif';
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 786px) {
+  .match-list {
+    background-color: #1e293b;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 30vw;
+    height: 45vh;
+    list-style-type: none;
+    margin: 10px;
+  }
+  .para1 {
+    font-size: 15px;
+    width: 100px;
+  }
+  .match-logo {
+    height: 80px;
+    width: 80px;
+  }
+  .team1-heading {
+    font-size: 15px;
+    text-align: center;
+  }
+}

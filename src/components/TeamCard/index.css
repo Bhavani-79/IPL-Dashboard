@@ -1,0 +1,27 @@
+/* Write your CSS here */
+.card-list {
+  display: flex;
+  flex-direction: row;
+  background-color: #4e596b;
+  border: 1px solid #5a6677;
+  width: 450px;
+  height: 150px;
+  border-radius: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+.teamCard-image {
+  height: 120px;
+  width: 120px;
+  margin-right: 20px;
+}
+.teamCard-heading {
+  color: #ffffff;
+  font-size: 30px;
+  font-family: 'Bree Serif';
+  width: 250px;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+}
